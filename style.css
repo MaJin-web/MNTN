@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 /* ----------classes fonctionnelles flex box------------ */ 
@@ -57,11 +58,11 @@ gap:12px;
 /* classes de largeurs */
 
 .w-100 {
-    width: 100px;
+    width: 100%;
 }
 
 .w-48 {
-    width: 48px;
+    width: 48%;
 }
 
 .w-33 {
@@ -71,3 +72,40 @@ gap:12px;
 .w-22 {
     width: 22px;
 }
+
+/* container */
+.container-1000 {
+ max-width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+
+.list-puce {
+    list-style-type: none;
+}
+
+.bg-baniere {
+    background-image: url(asset/images/banniere3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+body {
+    background-color: #0B1D26 ;
+}
+
